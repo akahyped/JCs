@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JC's Restaurant menu",
+  "type": "object",
+  "required": ["schema_version", "meals", "categories"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "meals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "categories": { "type": "array", "items": { "$ref": "#/$defs/category" } }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "entry": {
+      "type": "object",
+      "required": ["id", "name", "available", "visible"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": ["string", "null"] },
+        "photo": { "type": ["string", "null"] },
+        "photo_alt": { "type": ["string", "null"] },
+        "available": { "type": "boolean" },
+        "visible": { "type": "boolean" }
+      }
+    },
+    "item": {
+      "allOf": [
+        { "$ref": "#/$defs/entry" },
+        { "properties": { "price": { "type": ["string", "null"] } } }
+      ]
+    },
+    "category": {
+      "allOf": [
+        { "$ref": "#/$defs/entry" },
+        {
+          "required": ["meal"],
+          "properties": {
+            "meal": { "$ref": "#/$defs/id" },
+            "items": { "type": ["array", "null"], "items": { "$ref": "#/$defs/item" } }
+          }
+        }
+      ]
+    }
+  }
+}

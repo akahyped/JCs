@@ -1,0 +1,9 @@
+# Real secrets go in Cloudflare Pages Settings -> Variables and Secrets.
+# Never put this file or its real values in public/. Real .dev.vars is gitignored.
+SITE_ORIGIN=https://YOUR-PROJECT.pages.dev
+GITHUB_REPO=OWNER/REPOSITORY
+GITHUB_SCOPE=public_repo
+GITHUB_CLIENT_ID=replace-me
+GITHUB_CLIENT_SECRET=replace-me
+OAUTH_COOKIE_SECRET=replace-with-at-least-32-random-characters
+ALLOWED_GITHUB_USERS=restaurant-owner,site-maintainer

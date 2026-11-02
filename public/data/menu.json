@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "meals": [
+    {
+      "id": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "lunch-dinner",
+      "name": "Lunch & dinner"
+    }
+  ],
+  "categories": [
+    {
+      "id": "morning-tee-times",
+      "meal": "breakfast",
+      "name": "Morning Tee Times",
+      "description": "",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "morning-tee-times-1",
+          "name": "\"Foot Long\" Breakfast Wrap",
+          "price": "$10.99",
+          "description": "Scrambled Eggs with onions, peppers, sausage and American cheese wrapped in a tortilla served with salsa & sour cream and your choice of home fries or hash browns",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-2",
+          "name": "3 Man Scramble",
+          "price": "$10.99",
+          "description": "Two Eggs scrambled, choice of bacon, ham, sausage links or patties with biscuit & gravy",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-3",
+          "name": "JC's Big Breakfast",
+          "price": "$10.29",
+          "description": "Two Eggs, choice of hash browns or red skin home fries, choice of bacon, ham, sausage links or patties and choice of toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-4",
+          "name": "The Little J",
+          "price": "$8.99",
+          "description": "Two Eggs,  choice of bacon, ham, sausage links or patties and choice of toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-5",
+          "name": "The Double Bogey",
+          "price": "$10.99",
+          "description": "Two Eggs,  two pancakes or two french toast with choice of bacon, ham, sausage links or patties",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-6",
+          "name": "Hole-In-One",
+          "price": "$6.99",
+          "description": "One Egg,   one pancakes or one french toast with choice of  bacon, ham, sausage links or patties (1 piece)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-7",
+          "name": "Steak and Eggs",
+          "price": "$17.99",
+          "description": "Sirloin Steak with two eggs, choice of redskin home fries or hash browns and choice of toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-8",
+          "name": "Eggs Benedict",
+          "price": "$12.49",
+          "description": "Two Eggs poached on top of an English muffin topped with hollandaise sauce and  choice of redskin home fries or hash browns",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-9",
+          "name": "The Bunker",
+          "price": "$11.49",
+          "description": "Two Eggs, homemade corned beef hash and  choice of toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-10",
+          "name": "The Sand-Wedge",
+          "price": "$10.99",
+          "description": "Two Eggs and choice of cheese with choice of bacon, ham or sausage on a muffin, bagel, biscuit or toast, served with red skin home fries or hash browns",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-11",
+          "name": "One Egg with Toast",
+          "price": "$4.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-12",
+          "name": "Two Eggs with Toast",
+          "price": "$5.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "morning-tee-times-13",
+          "name": "Substitute Corned Beef Hash",
+          "price": "",
+          "description": "for hash browns or home fries on any breakfast for $4.49 more",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "pancakes-more",
+      "meal": "breakfast",
+      "name": "Pancakes & More",
+      "description": "",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "pancakes-more-1",
+          "name": "Buttermilk Pancakes",
+          "price": "Small Stack $5.99. Large Stack $6.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-2",
+          "name": "Blueberry Pancakes",
+          "price": "Small Stack $6.99. Large Stack $7.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-3",
+          "name": "Texas French Toast",
+          "price": "Small Stack $5.99. Large Stack $6.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-4",
+          "name": "Fresh-Made Belgian Waffle",
+          "price": "$6.99",
+          "description": "Add pecans + $1.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-5",
+          "name": "Real Geauga County Maple Syrup - 4 oz.",
+          "price": "$3.50",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-6",
+          "name": "Cherry, Blueberry or Ice Cream Topping.",
+          "price": "$3.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-7",
+          "name": "JC's Over Stuffed Omelettes",
+          "price": "",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-8",
+          "name": "Cheese Omelette",
+          "price": "$8.99",
+          "description": "three eggs with choice of cheese and served with choice of potato and toast. Add ons ...99 cents each:  Peppers, Onions, Mushrooms, Spinach, Tomatoes, (bacon, sausage, ham or turkey $1.49 each) add extra cheese $1.29",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-9",
+          "name": "Western Omelette",
+          "price": "$11.99",
+          "description": "three eggs with onions, peppers, ham and American cheese served with choice of potato and toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-10",
+          "name": "Breakfast Bowl",
+          "price": "$12.99",
+          "description": "three eggs open-faced omelette heaped with hash browns or red skin homefries, sausage gravy and topped with cheddar cheese and your choice of toast.",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-11",
+          "name": "Fiesta Bowl",
+          "price": "$11.99",
+          "description": "three eggs open-faced omelette with onions, peppers and ham heaped  with hash browns or red skin homefries,  and topped with cheddar cheese and your choice of toast.",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-12",
+          "name": "The \"Eagle\"",
+          "price": "$11.99",
+          "description": "three eggs with oven-roasted turkey breast, spinach and choice of cheese served hash browns or red skin homefries and your choice of toast.",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pancakes-more-13",
+          "name": "\"The Masters\"",
+          "price": "$15.99",
+          "description": "three eggs with onions, peppers, ham, sausage, mushrooms, choice of potato, turkey and choice of cheese served with your choice of toast.",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "meal": "lunch-dinner",
+      "name": "Starters",
+      "description": "Appetizers",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "starters-1",
+          "name": "Smothered Fries",
+          "price": "$10.99",
+          "description": "hand-cut fries covered with bacon, melted cheddar and scallions",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-2",
+          "name": "Battered Deep Fried Pickle Spears",
+          "price": "$10.99",
+          "description": "served with a side of tzatziki sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-3",
+          "name": "JC's Own Artichoke Spinach Dip",
+          "price": "$12.99",
+          "description": "topped with scallions & tomatoes, served with warm flat bread",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-4",
+          "name": "Loaded Potato Skins",
+          "price": "$10.99",
+          "description": "served with a side of sour cream and covered with bacon, scallions and melted cheese",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-5",
+          "name": "Chicken Tender Basket",
+          "price": "$11.99",
+          "description": "4 chicken tenders served with hand cut french fries and choice of 1 dipping sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-6",
+          "name": "Crispy Mozzarella Triangles",
+          "price": "$9.99",
+          "description": "served with a side of marinara sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-7",
+          "name": "Sweet Potato Fry Basket",
+          "price": "$8.99",
+          "description": "1/2 basket $6.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-8",
+          "name": "Chicken Cheddar & Bacon Cassydilla",
+          "price": "$12.99",
+          "description": "comes with scallions, lettuce and tomatoes,  served with a side of salsa & sour cream",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-9",
+          "name": "Homemade Onion Rings",
+          "price": "$9.99",
+          "description": "1/2 basket $7.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "starters-10",
+          "name": "\"Fore\" Platter",
+          "price": "$16.99",
+          "description": "3 chicken tenders, 3 mozzarella triangles, dill 4 pickle spears, 2 loaded potato skins, served with a side of each sauce: tzatziki, marinara, bbq, and sour cream",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "entrees",
+      "meal": "lunch-dinner",
+      "name": "Entrees",
+      "description": "served with choice of potato, vegetable and soup or salad or substitute potato with sweet potato fries or homemade onion rings for + $2.99",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "entrees-1",
+          "name": "Giant 16 oz. Ground Sirloin",
+          "price": "$19.49",
+          "description": "chopped sirloin steak topped with grilled onions and mushrooms",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-2",
+          "name": "Smothered Chicken Breast",
+          "price": "$15.49 regular (1 breast) / large (2 breasts) $21.49",
+          "description": "grilled and topped with swiss cheese, grilled mushrooms & onions",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-3",
+          "name": "Boneless Pork Chop",
+          "price": "$16.99 regular (1 chop) / large (2 chops) $22.99",
+          "description": "lightly seasoned and grilled",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-4",
+          "name": "Liver & Onions",
+          "price": "$14.99",
+          "description": "pan fried and topped with grilled onions",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-5",
+          "name": "Country Fried Steak",
+          "price": "$14.99",
+          "description": "tended chopped sirloin steak breaded and served golden brown with country sausage gravy",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-6",
+          "name": "John's Sirloin",
+          "price": "$22.99",
+          "description": "10 oz. Top Sirloin, topped with garlic butter and grilled to your request",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-7",
+          "name": "\"Little J\" Sirloin Steak",
+          "price": "$18.99",
+          "description": "8 oz. sirloin steak topped with garlic butter and grilled to your request",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-8",
+          "name": "Deep Fried Gulf Shrimp",
+          "price": "7 piece $16.49 / 14 piece $21.49",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-9",
+          "name": "Broiled Cod Almondine",
+          "price": "$19.99",
+          "description": "Broiled Cod topped with swiss cheese, toasted almonds and scallions",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-10",
+          "name": "Lager Battered Cod",
+          "price": "$17.99",
+          "description": "4 piece Lager Battered Cod, choice of potato, veg & soup or salad",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "entrees-11",
+          "name": "Lemon Whitefish",
+          "price": "$19.99",
+          "description": "lightly seasoned icelandic cod broiled and topped with tomatoes, scallions & lemon wine butter sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "meal": "lunch-dinner",
+      "name": "Dessert",
+      "description": "Daily assortment of homebaked pies & assorted cheesecakes",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": []
+    },
+    {
+      "id": "salads",
+      "meal": "lunch-dinner",
+      "name": "Salads",
+      "description": "roll & butter available upon request, any extra dressings are $1.00 for 2 oz. and $2.00for 4 oz. (except caesar & blue cheese $1.50  2 oz. & $3.00 for 4 oz.)",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "salads-1",
+          "name": "Taco Salad",
+          "price": "$12.99",
+          "description": "seasoned ground beef, lettuce, cheddar cheese, diced tomatoes and onions in a fried tortilla shell served with a side of sour cream & salsa",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-2",
+          "name": "Oriental Salad",
+          "price": "$12.99",
+          "description": "grilled chicken breast over a bed of lettuce with mandarin oranges, crispy ramen noodles, red onion, almonds & served with a sesame dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-3",
+          "name": "Grilled Chicken Caesar Salad",
+          "price": "$12.99",
+          "description": "grilled chicken breast over a bed of romaine lettuce with croutons, red onions, grated parmesan cheese & served with Caesar dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-4",
+          "name": "Krisco Salad",
+          "price": "$13.99",
+          "description": "Grilled chicken breast over lettuce, strawberries, mandarin oranges, pecans, grapes, cranberries served with a sweet and sour dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-5",
+          "name": "Chef Salad",
+          "price": "1/2 chef $10.49 / full $12.99",
+          "description": "ham, turkey, swiss & american cheese, hard boiled egg, tomatoes and cucumbers served over a bed of lettuce with your choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-6",
+          "name": "Grilled Chicken Salad",
+          "price": "$12.99",
+          "description": "grilled chicken breast over a bed of lettuce with tomatoes, cucumbers, hard boiled egg, cheddar cheese & your choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "salads-7",
+          "name": "Steak Salad",
+          "price": "$17.99",
+          "description": "strips of steak grilled to your request on top of a bed of lettuce with tomatoes, cucumbers, hard boiled egg, cheddar cheese & your choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "meal": "lunch-dinner",
+      "name": "Wraps",
+      "description": "served with choice of fries, chips or cole slaw or substitute sweet potato fries or homemade onion rings for + $2.99, or a cup of soup or a salad for + $2.49",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "wraps-1",
+          "name": "Veggie Wrap",
+          "price": "$8.99",
+          "description": "lettuce, tomatoes, cucumbers, onions, cheddar cheese & choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "wraps-2",
+          "name": "Chicken Caesar Wrap",
+          "price": "$12.49",
+          "description": "grilled chicken breast with romaine lettuce, parmesan cheese & Caesar dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "wraps-3",
+          "name": "Gyro Wrap or Pita",
+          "price": "$12.29",
+          "description": "lamb & beef with lettuce, tomatoes, onion and homemade tzatziki sauce in either a wrap or a pita",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "wraps-4",
+          "name": "Turkey Wrap",
+          "price": "$12.29",
+          "description": "roasted turkey breast with lettuce, tomatoes, swiss cheese and your choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "wraps-5",
+          "name": "Buffalo Chicken Wrap",
+          "price": "$12.29",
+          "description": "chicken tenders, lettuce, mozzarella cheese topped with our homemade buffalo sauce and ranch dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "sandwedge-platters",
+      "meal": "lunch-dinner",
+      "name": "Sandwedge Platters",
+      "description": "served with choice of fries, chips or cole slaw, substitute sweet potato fries or homemade onion rings for + $2.99, or a salad or cup of soup for + $2.49",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "sandwedge-platters-1",
+          "name": "BLT",
+          "price": "$10.99",
+          "description": "bacon, lettuce, tomato & mayo stacked and served with your choice of bread...... Double Deck It for an additional $5.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-2",
+          "name": "Grilled Cheese with Tomato",
+          "price": "$7.99",
+          "description": "on texas toast, ....add bacon for an additional $2.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-3",
+          "name": "Ryder's Cup Reuben",
+          "price": "$15.99",
+          "description": "thinly sliced homemade corned beef with sauerkraut and swiss cheese served on grilled thick marble rye with a side of thousand island dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-4",
+          "name": "Fried Grouper Sandwedge",
+          "price": "$16.99",
+          "description": "hand breaded and fried on a kaiser roll with a slice  of lemon and tartar (lettuce, tomato, onion upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-5",
+          "name": "Birdie",
+          "price": "$10.29",
+          "description": "grilled chicken breast marinated in italian dressing and served on a kaiser bun (lettuce, tomato, onion upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-6",
+          "name": "Cogan's Hero",
+          "price": "$13.99",
+          "description": "shaved baked honey ham, turkey breast, salami and mozzarella cheese with marinated thinly sliced onions served on a kaiser roll.  Served Hot or Cold (lettuce & tomato upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-7",
+          "name": "Chamber's Cheddar Melt",
+          "price": "$12.49",
+          "description": "grilled chicken breast topped with tomato, grilled mushrooms and cheddar cheese served on grilled texas toast",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-8",
+          "name": "Philly Steak",
+          "price": "$13.49",
+          "description": "grilled beef philly steak with mushrooms, onions, peppers & swiss cheese......Chicken Philly also available",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-9",
+          "name": "Chicken Cutlet Sandwedge",
+          "price": "$12.99",
+          "description": "hand breaded chicken breast fried and topped with mozzarella cheese served on a kaiser bun (lettuce, tomato, onion upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-10",
+          "name": "Turkey Club",
+          "price": "$13.99",
+          "description": "triple decker! oven roasted turkey breast with swiss cheese, bacon, lettuce, tomato and mayo served on your choice of bread",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-11",
+          "name": "The Weezer",
+          "price": "$13.99",
+          "description": "grilled chicken breast topped with bbq sauce, swiss cheese & bacon served on a kaiser bun (lettuce, tomato, onion upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-12",
+          "name": "BBQ Pulled Pork",
+          "price": "$12.99",
+          "description": "slow roasted homemade bbq pork served on a kaiser bun",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-13",
+          "name": "Tuna Melt",
+          "price": "$11.99",
+          "description": "served on grilled marble rye with american cheese",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-14",
+          "name": "JC's Cuban",
+          "price": "$13.99",
+          "description": "ham, pulled pork, swiss cheese, lettuce, tomato, pickles all topped with our bistro sauce served on a ciabatta roll",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-15",
+          "name": "Chicken Club Flatbread",
+          "price": "$13.99",
+          "description": "grilled chicken breast topped with bacon, swiss cheese and lettuce, tomato and onion (upon request) served on a grilled flatbread",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "sandwedge-platters-16",
+          "name": "Chicken Florentine Flatbread",
+          "price": "$13.99",
+          "description": "grilled chicken breast topped with our homemade JC's spinach artichoke dip, cheddar cheese and served on a grilled flatbread (lettuce, tomato, onion upon request)",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "meal": "lunch-dinner",
+      "name": "Burgers",
+      "description": "All burgers are hand- pattied 8 oz. and served on a kaiser bun with choice of fries, chips or cole slaw, substitute sweet potato fries or onion rings for +$2.99, or salad or cup of soup for +$2.49.  Lettuce, tomato & onion available upon request.  Cheese Choices:  American, swiss, cheddar, provolone, pepper jack, provolone & mozzarella or  Bleu Cheese 1 .50 cents extra (except on bleu burger)",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "burgers-1",
+          "name": "The Mulligan",
+          "price": "$19.99",
+          "description": "2 1/2lb burger patties double stacked with choice of cheese served on kaiser bun; add bacon $3.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-2",
+          "name": "The Fairway",
+          "price": "$13.99",
+          "description": "chargrilled burger topped with mushrooms, onions, bacon and choice of cheese",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-3",
+          "name": "The Bleu Burger",
+          "price": "$13.99",
+          "description": "chargrilled with mushrooms, bacon and blue cheese",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-4",
+          "name": "The Hazard",
+          "price": "$13.99",
+          "description": "chargrilled burger with jalapenos, pepper jack cheese &  our homemade cajun mayo",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-5",
+          "name": "The Rodeo",
+          "price": "$13.99",
+          "description": "chargrilled burger topped with bbq sauce, cheddar cheese, bacon & onion ring",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-6",
+          "name": "Topped It",
+          "price": "$13.99",
+          "description": "chargrilled burger with your choice of 4 toppings (cheese, bacon, grilled mushrooms, grilled peppers, grilled onions, jalapenos and/or home-made onion rings",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-7",
+          "name": "The Caddie",
+          "price": "$10.99",
+          "description": "chargrilled burger plain and simple....add cheese $1.29 ...Add Bacon $2.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-8",
+          "name": "The Cindy",
+          "price": "$9.99",
+          "description": "chargrilled plain and simple only smaller!.....add cheese $1.29 ....Add Bacon $2.99",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-9",
+          "name": "Veggie Burger",
+          "price": "$9.99",
+          "description": "add cheese $1.29",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-10",
+          "name": "Super Patti Melt",
+          "price": "$13.99",
+          "description": "chargrilled burger topped with grilled onions and swiss cheese on grilled rye bread",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "burgers-11",
+          "name": "The I'm Going For It",
+          "price": "$24.99",
+          "description": "3 chargrilled  1/2 lb burger patties, choice of cheese and bacon....you must eat all of this and the fries to be put on our Facebook Page!!",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "meal": "lunch-dinner",
+      "name": "Pasta",
+      "description": "served with soup or salad and garlic bread",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "pasta-1",
+          "name": "Fettuccine Alfredo",
+          "price": "$15.49 ....add grilled chicken $19.99",
+          "description": "features our rich, creamy made-to-order alfredo sauce over fettuccine pasta",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pasta-2",
+          "name": "Spaghetti & Meatballs",
+          "price": "$14.99",
+          "description": "three meatballs over pasta with marinara",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "pasta-3",
+          "name": "Chicken Parmesan",
+          "price": "$16.49  regular ( 1 breast)/ large (2 breasts)$21.49",
+          "description": "breaded chicken breast topped with mozzarella cheese over pasta with marinara",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "kid-s-menu",
+      "meal": "lunch-dinner",
+      "name": "Kid's Menu",
+      "description": "",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "kid-s-menu-1",
+          "name": "Mac & Cheese",
+          "price": "$7.99",
+          "description": "served with apple sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "kid-s-menu-2",
+          "name": "grilled cheese",
+          "price": "$7.99",
+          "description": "served with apple sauce, fries or chips",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "kid-s-menu-3",
+          "name": "kid's hamburger or cheeseburger",
+          "price": "$7.99",
+          "description": "served with choice of applesauce, fries or chips",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "kid-s-menu-4",
+          "name": "kid's spaghetti & meatball",
+          "price": "$7.99",
+          "description": "comes with 1 meatball",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "kid-s-menu-5",
+          "name": "kid's chicken tenders",
+          "price": "$7.99",
+          "description": "2 chicken tenders with choice of applesauce, fries or chips and choice of 1 dipping sauce",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "side-orders",
+      "meal": "lunch-dinner",
+      "name": "Side Orders",
+      "description": "extra dressings or sauces are .75 cents for 2 oz and $1.25 for 4 oz. (except blue cheese & caesar $1.00 2 oz. and $2.00 4 oz.",
+      "photo": "",
+      "photo_alt": "",
+      "available": true,
+      "visible": true,
+      "items": [
+        {
+          "id": "side-orders-1",
+          "name": "Red skinned mashed potatoes",
+          "price": "$3.79",
+          "description": "homemade red skinned mashed potatoes served with or without gravy",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-2",
+          "name": "Hand-cut French Fries",
+          "price": "$3.79",
+          "description": "load em up with cheese, bacon & scallions $3.99 more",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-3",
+          "name": "Dinner Salad",
+          "price": "$4.49",
+          "description": "lettuce, cucumbers and onions with choice of dressing",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-4",
+          "name": "Cole Slaw",
+          "price": "$2.99",
+          "description": "homemade",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-5",
+          "name": "Apple sauce",
+          "price": "$2.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-6",
+          "name": "Cottage Cheese",
+          "price": "$2.99",
+          "description": "",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-7",
+          "name": "Baked Potato",
+          "price": "$3.79",
+          "description": "load it up, cheese, bacon, scallions & sour cream ....$3.99  more",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-8",
+          "name": "Soup of the Day",
+          "price": "cup $3.99...bowl $5.99",
+          "description": "homemade daily",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-9",
+          "name": "Crock of French Onion",
+          "price": "$6.49",
+          "description": "homemade french onion soup topped with a crouton and provolone cheese",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        },
+        {
+          "id": "side-orders-10",
+          "name": "Chili",
+          "price": "cup $5.99 / bowl $6.99",
+          "description": "JC's Homemade Recipe",
+          "photo": "",
+          "photo_alt": "",
+          "available": true,
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

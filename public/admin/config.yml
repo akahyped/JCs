@@ -1,0 +1,74 @@
+# Replace OWNER/REPOSITORY and the production origin before enabling login.
+backend:
+  name: github
+  repo: OWNER/REPOSITORY
+  branch: main
+  base_url: https://YOUR-PROJECT.pages.dev
+  auth_endpoint: api/auth
+  auth_scope: public_repo
+
+site_url: https://YOUR-PROJECT.pages.dev
+display_url: https://YOUR-PROJECT.pages.dev
+media_folder: public/uploads
+public_folder: /uploads
+publish_mode: simple
+# No local_backend in production. Every write requires GitHub authorization.
+editor:
+  preview: false
+collections:
+  - name: restaurant
+    label: Restaurant
+    files:
+      - name: menu
+        label: Menu
+        file: public/data/menu.json
+        format: json
+        fields:
+          - { label: Schema version, name: schema_version, widget: hidden, default: 1 }
+          - label: Meal sections
+            name: meals
+            widget: list
+            summary: '{{fields.name}}'
+            collapsed: true
+            hint: Order controls display order. Keep IDs stable; category meal selections must match.
+            fields:
+              - { label: ID, name: id, widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Use lowercase words joined by hyphens.'] }
+              - { label: Name, name: name, widget: string }
+          - label: Menu categories
+            name: categories
+            widget: list
+            collapsed: true
+            summary: '{{fields.name}}'
+            hint: Add, delete or drag to reorder categories. Items are managed inside each category. IDs must be unique across the entire menu.
+            fields:
+              - { label: ID, name: id, widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Use a unique lowercase slug.'] }
+              - label: Meal section
+                name: meal
+                widget: relation
+                collection: restaurant
+                file: menu
+                search_fields: ['meals.*.name']
+                value_field: 'meals.*.id'
+                display_fields: ['meals.*.name']
+              - { label: Category name, name: name, widget: string }
+              - { label: Description, name: description, widget: text, required: false, default: '' }
+              - { label: Photograph, name: photo, widget: image, required: false, default: '', choose_url: false, media_library: { config: { max_file_size: 5242880 } } }
+              - { label: Photo description (required if photo provided), name: photo_alt, widget: string, required: false, default: '' }
+              - { label: Available, name: available, widget: boolean, default: true, hint: 'Off shows the category and its items as currently unavailable.' }
+              - { label: Visible on website, name: visible, widget: boolean, default: true, hint: 'Off hides the category and all its items.' }
+              - label: Menu items
+                name: items
+                widget: list
+                required: false
+                collapsed: true
+                summary: '{{fields.name}} — {{fields.price}}'
+                hint: Drag to reorder. Delete permanently removes the item from the current menu; Git history retains past versions.
+                fields:
+                  - { label: ID, name: id, widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Use a unique lowercase slug, e.g. burgers-rodeo.'] }
+                  - { label: Item name, name: name, widget: string }
+                  - { label: Price, name: price, widget: string, required: false, default: '', hint: 'Examples: $10.99 or Small $5.99 / Large $6.99. Leave blank for descriptive entries.' }
+                  - { label: Description, name: description, widget: text, required: false, default: '' }
+                  - { label: Photograph, name: photo, widget: image, required: false, default: '', choose_url: false, media_library: { config: { max_file_size: 5242880 } } }
+                  - { label: Photo description (required if photo provided), name: photo_alt, widget: string, required: false, default: '' }
+                  - { label: Available, name: available, widget: boolean, default: true }
+                  - { label: Visible on website, name: visible, widget: boolean, default: true }
