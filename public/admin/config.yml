@@ -1,14 +1,14 @@
 # Replace OWNER/REPOSITORY and the production origin before enabling login.
 backend:
   name: github
-  repo: OWNER/REPOSITORY
+  repo: akahyped/JCs
   branch: main
-  base_url: https://YOUR-PROJECT.pages.dev
+  base_url: https://jcs-4r8.pages.dev
   auth_endpoint: api/auth
   auth_scope: public_repo
 
-site_url: https://YOUR-PROJECT.pages.dev
-display_url: https://YOUR-PROJECT.pages.dev
+site_url: https://jcs-4r8.pages.dev
+display_url: https://jcs-4r8.pages.dev
 media_folder: public/uploads
 public_folder: /uploads
 publish_mode: simple
