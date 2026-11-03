@@ -655,3 +655,14 @@ input:focus-visible {
 }
 
 .contact .eyebrow { color: #dfb79c; }
+
+/* Keep the Visit section away from screen edges. */
+.visit.wrap {
+  padding: 80px 32px;
+}
+
+@media (max-width: 760px) {
+  .visit.wrap {
+    padding: 45px 22px;
+  }
+}
