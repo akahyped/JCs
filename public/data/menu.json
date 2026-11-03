@@ -12,19 +12,11 @@
   ],
   "categories": [
     {
-      "id": "morning-tee-times",
-      "meal": "breakfast",
-      "name": "Morning Tee Times",
-      "description": "",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "morning-tee-times-1",
           "name": "\"Foot Long\" Breakfast Wrap",
-          "price": "$10.99",
+          "price": "$100.99",
           "description": "Scrambled Eggs with onions, peppers, sausage and American cheese wrapped in a tortilla served with salsa & sour cream and your choice of home fries or hash browns",
           "photo": "",
           "photo_alt": "",
@@ -151,17 +143,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "breakfast",
+      "available": true,
+      "name": "Morning Tee Times",
+      "visible": true,
+      "photo": "",
+      "id": "morning-tee-times",
+      "photo_alt": "",
+      "description": ""
     },
     {
-      "id": "pancakes-more",
-      "meal": "breakfast",
-      "name": "Pancakes & More",
-      "description": "",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "pancakes-more-1",
@@ -293,17 +285,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "breakfast",
+      "available": true,
+      "name": "Pancakes & More",
+      "visible": true,
+      "photo": "",
+      "id": "pancakes-more",
+      "photo_alt": "",
+      "description": ""
     },
     {
-      "id": "starters",
-      "meal": "lunch-dinner",
-      "name": "Starters",
-      "description": "Appetizers",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "starters-1",
@@ -405,17 +397,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Starters",
+      "visible": true,
+      "photo": "",
+      "id": "starters",
+      "photo_alt": "",
+      "description": "Appetizers"
     },
     {
-      "id": "entrees",
-      "meal": "lunch-dinner",
-      "name": "Entrees",
-      "description": "served with choice of potato, vegetable and soup or salad or substitute potato with sweet potato fries or homemade onion rings for + $2.99",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "entrees-1",
@@ -527,28 +519,28 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Entrees",
+      "visible": true,
+      "photo": "",
+      "id": "entrees",
+      "photo_alt": "",
+      "description": "served with choice of potato, vegetable and soup or salad or substitute potato with sweet potato fries or homemade onion rings for + $2.99"
     },
     {
-      "id": "dessert",
+      "items": [],
       "meal": "lunch-dinner",
+      "available": true,
       "name": "Dessert",
-      "description": "Daily assortment of homebaked pies & assorted cheesecakes",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
       "visible": true,
-      "items": []
+      "photo": "",
+      "id": "dessert",
+      "photo_alt": "",
+      "description": "Daily assortment of homebaked pies & assorted cheesecakes"
     },
     {
-      "id": "salads",
-      "meal": "lunch-dinner",
-      "name": "Salads",
-      "description": "roll & butter available upon request, any extra dressings are $1.00 for 2 oz. and $2.00for 4 oz. (except caesar & blue cheese $1.50  2 oz. & $3.00 for 4 oz.)",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "salads-1",
@@ -620,17 +612,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Salads",
+      "visible": true,
+      "photo": "",
+      "id": "salads",
+      "photo_alt": "",
+      "description": "roll & butter available upon request, any extra dressings are $1.00 for 2 oz. and $2.00for 4 oz. (except caesar & blue cheese $1.50  2 oz. & $3.00 for 4 oz.)"
     },
     {
-      "id": "wraps",
-      "meal": "lunch-dinner",
-      "name": "Wraps",
-      "description": "served with choice of fries, chips or cole slaw or substitute sweet potato fries or homemade onion rings for + $2.99, or a cup of soup or a salad for + $2.49",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "wraps-1",
@@ -682,17 +674,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Wraps",
+      "visible": true,
+      "photo": "",
+      "id": "wraps",
+      "photo_alt": "",
+      "description": "served with choice of fries, chips or cole slaw or substitute sweet potato fries or homemade onion rings for + $2.99, or a cup of soup or a salad for + $2.49"
     },
     {
-      "id": "sandwedge-platters",
-      "meal": "lunch-dinner",
-      "name": "Sandwedge Platters",
-      "description": "served with choice of fries, chips or cole slaw, substitute sweet potato fries or homemade onion rings for + $2.99, or a salad or cup of soup for + $2.49",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "sandwedge-platters-1",
@@ -854,17 +846,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Sandwedge Platters",
+      "visible": true,
+      "photo": "",
+      "id": "sandwedge-platters",
+      "photo_alt": "",
+      "description": "served with choice of fries, chips or cole slaw, substitute sweet potato fries or homemade onion rings for + $2.99, or a salad or cup of soup for + $2.49"
     },
     {
-      "id": "burgers",
-      "meal": "lunch-dinner",
-      "name": "Burgers",
-      "description": "All burgers are hand- pattied 8 oz. and served on a kaiser bun with choice of fries, chips or cole slaw, substitute sweet potato fries or onion rings for +$2.99, or salad or cup of soup for +$2.49.  Lettuce, tomato & onion available upon request.  Cheese Choices:  American, swiss, cheddar, provolone, pepper jack, provolone & mozzarella or  Bleu Cheese 1 .50 cents extra (except on bleu burger)",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "burgers-1",
@@ -976,17 +968,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Burgers",
+      "visible": true,
+      "photo": "",
+      "id": "burgers",
+      "photo_alt": "",
+      "description": "All burgers are hand- pattied 8 oz. and served on a kaiser bun with choice of fries, chips or cole slaw, substitute sweet potato fries or onion rings for +$2.99, or salad or cup of soup for +$2.49.  Lettuce, tomato & onion available upon request.  Cheese Choices:  American, swiss, cheddar, provolone, pepper jack, provolone & mozzarella or  Bleu Cheese 1 .50 cents extra (except on bleu burger)"
     },
     {
-      "id": "pasta",
-      "meal": "lunch-dinner",
-      "name": "Pasta",
-      "description": "served with soup or salad and garlic bread",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "pasta-1",
@@ -1018,17 +1010,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Pasta",
+      "visible": true,
+      "photo": "",
+      "id": "pasta",
+      "photo_alt": "",
+      "description": "served with soup or salad and garlic bread"
     },
     {
-      "id": "kid-s-menu",
-      "meal": "lunch-dinner",
-      "name": "Kid's Menu",
-      "description": "",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "kid-s-menu-1",
@@ -1080,17 +1072,17 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Kid's Menu",
+      "visible": true,
+      "photo": "",
+      "id": "kid-s-menu",
+      "photo_alt": "",
+      "description": ""
     },
     {
-      "id": "side-orders",
-      "meal": "lunch-dinner",
-      "name": "Side Orders",
-      "description": "extra dressings or sauces are .75 cents for 2 oz and $1.25 for 4 oz. (except blue cheese & caesar $1.00 2 oz. and $2.00 4 oz.",
-      "photo": "",
-      "photo_alt": "",
-      "available": true,
-      "visible": true,
       "items": [
         {
           "id": "side-orders-1",
@@ -1192,7 +1184,15 @@
           "available": true,
           "visible": true
         }
-      ]
+      ],
+      "meal": "lunch-dinner",
+      "available": true,
+      "name": "Side Orders",
+      "visible": true,
+      "photo": "",
+      "id": "side-orders",
+      "photo_alt": "",
+      "description": "extra dressings or sauces are .75 cents for 2 oz and $1.25 for 4 oz. (except blue cheese & caesar $1.00 2 oz. and $2.00 4 oz."
     }
   ]
 }
