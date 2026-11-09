@@ -20,6 +20,11 @@ for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
   if (value.startsWith('#')) {
     const id = value.slice(1);
     if (!html.includes(`id="${id}"`) && !data.meals.some(meal => meal.id === id)) throw new Error(`Missing anchor ${value}`);
-  } else if (value.startsWith('/')) await stat(new URL(`public${value}`, root));
+  } else if (value.startsWith('/')) {
+    // URL query strings version assets; they are not part of filesystem names.
+    const pathname = new URL(value, 'https://jcs.example').pathname;
+    await stat(new URL(`public${pathname}`, root));
+  }
 }
 console.log(`Validated ${data.categories.length} categories and ${data.categories.reduce((n, c) => n + c.items.length, 0)} menu entries.`);
+
