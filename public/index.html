@@ -7,7 +7,7 @@
    JC’s Restaurant | A seat at the table in Burton, Ohio
   </title>
   <meta content="Explore JC’s Restaurant’s breakfast, lunch and dinner menu. Find us at 13816 W. Center Street in Burton, Ohio. Call 440-834-1900." name="description"/>
-  <link href="/assets/css/styles.css?v=3" rel="stylesheet"/>
+  <link href="/assets/css/styles.css?v=4" rel="stylesheet"/>
  </head>
  <body>
   <a class="skip" href="#menu">
@@ -186,19 +186,44 @@
      </a>
     </div>
     <div class="visit-box">
-     <h3>
-      Hours &amp; a few good things to know
-     </h3>
-     <div class="hours">
-      <span>
-       Hours shown on original site
-      </span>
-      <strong>
-       6 am – 8 pm
-      </strong>
-     </div>
-     <p class="small">
-      The original website displays these as “today’s” hours. Please call to confirm the weekly schedule, holiday hours and breakfast availability.
+     <table class="weekly-hours" id="hours" aria-describedby="holiday-hours">
+      <caption>
+       <span class="eyebrow">Plan your visit</span>
+       Opening hours
+      </caption>
+      <tbody>
+       <tr>
+        <th scope="row">Monday</th>
+        <td>6:00 AM – 8:00 PM</td>
+       </tr>
+       <tr class="closed-day">
+        <th scope="row">Tuesday</th>
+        <td>Closed</td>
+       </tr>
+       <tr>
+        <th scope="row">Wednesday</th>
+        <td>6:00 AM – 8:00 PM</td>
+       </tr>
+       <tr>
+        <th scope="row">Thursday</th>
+        <td>6:00 AM – 8:00 PM</td>
+       </tr>
+       <tr>
+        <th scope="row">Friday</th>
+        <td>6:00 AM – 8:00 PM</td>
+       </tr>
+       <tr>
+        <th scope="row">Saturday</th>
+        <td>6:00 AM – 8:00 PM</td>
+       </tr>
+       <tr>
+        <th scope="row">Sunday</th>
+        <td>7:00 AM – 7:00 PM</td>
+       </tr>
+      </tbody>
+     </table>
+     <p class="small" id="holiday-hours">
+      Holiday hours may vary. Please call <a href="tel:+14408341900">440-834-1900</a> to confirm.
      </p>
      <h3>
       Ordering? Call us directly.

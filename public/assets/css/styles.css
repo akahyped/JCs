@@ -112,8 +112,16 @@ h2 em { font-weight: 400; color: var(--rust); }
 .visit-box h3:first-child { margin-top: 0; font-size: 23px; }
 .visit-box p.small { font-size: 10px; }
 .visit-box > a { font-size: 14px; text-underline-offset: 5px; }
-.hours { display: flex; justify-content: space-between; gap: 25px; align-items: baseline; padding: 16px 0; border-top: 1px solid #c6cfb9; border-bottom: 1px solid #c6cfb9; font-size: 11px; }
-.hours strong { font-size: 14px; white-space: nowrap; }
+/* A full weekly schedule, readable from desktop down to narrow phones. */
+.weekly-hours { width: 100%; border-collapse: collapse; font-size: 12px; scroll-margin-top: 110px; }
+.weekly-hours caption { text-align: left; font: 400 30px/1.2 var(--serif); letter-spacing: -.6px; padding-bottom: 22px; color: var(--ink); }
+.weekly-hours caption .eyebrow { display: block; margin-bottom: 9px; letter-spacing: 1.7px; }
+.weekly-hours th, .weekly-hours td { padding: 12px 0; border-bottom: 1px solid #c6cfb9; }
+.weekly-hours th { text-align: left; font-weight: 500; padding-right: 12px; }
+.weekly-hours td { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.weekly-hours .closed-day td { color: var(--rust); font-weight: 650; }
+#holiday-hours { margin: 15px 0 27px; }
+#holiday-hours a { white-space: nowrap; text-underline-offset: 3px; }
 .small { font-size: 11px; }
 .contact { position: relative; background: var(--forest); color: var(--cream); padding: 64px 0; overflow: hidden; }
 .contact::after { content: 'JC’s'; position: absolute; right: 20%; bottom: -60px; font: italic 240px/1 var(--serif); letter-spacing: -20px; color: #ffffff04; pointer-events: none; }
@@ -195,8 +203,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid #bd8259; outline-offs
   .visit h2 { margin-bottom: 24px; }
   .visit-box { padding: 26px; }
   .visit-box::before { left: 26px; }
-  .hours { gap: 16px; }
-  .hours strong { font-size: 12px; }
+  .weekly-hours { font-size: 11px; }
+  .weekly-hours caption { font-size: 28px; }
+  .weekly-hours th { padding-right: 8px; }
   .contact { padding-block: 46px; }
   .contact .wrap { display: block; }
   .contact h2 { font-size: 36px; }
