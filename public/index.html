@@ -7,13 +7,13 @@
    JC’s Restaurant | A seat at the table in Burton, Ohio
   </title>
   <meta content="Explore JC’s Restaurant’s breakfast, lunch and dinner menu. Find us at 13816 W. Center Street in Burton, Ohio. Call 440-834-1900." name="description"/>
-  <link href="/assets/css/styles.css?v=2" rel="stylesheet"/>
+  <link href="/assets/css/styles.css?v=3" rel="stylesheet"/>
  </head>
  <body>
   <a class="skip" href="#menu">
    Skip to menu
   </a>
-  <header>
+  <header class="site-header">
    <div class="nav">
     <a class="brand" href="#home">
      JC’s
@@ -38,10 +38,10 @@
    </div>
   </header>
   <main id="home">
-   <section class="hero wrap">
-    <div>
+   <section class="hero wrap" aria-label="Welcome to JC’s">
+    <div class="hero-copy">
      <span class="eyebrow">
-      Pull up a chair · Burton, Ohio
+      A little local flavor · Burton, Ohio
      </span>
      <h1>
       Good food.
@@ -57,20 +57,20 @@
      </p>
      <div class="actions">
       <a class="button" href="#menu">
-       Explore the menu ↗
+       Explore the menu <span aria-hidden="true">↗</span>
       </a>
       <a class="button outline" href="#visit">
-       Plan your visit
+       Find your way here
       </a>
      </div>
     </div>
     <div class="hero-photo">
-     <img alt="A classic burger with fresh toppings" height="700" src="/assets/images/window.jpg" width="700"/>
+     <img alt="JC’s Restaurant storefront and outdoor tables in Burton, Ohio" height="700" src="/assets/images/window.jpg" width="700"/>
      <div class="photo-tag">
-      Come hungry. Leave happy.
+      <span class="tag-label">PULL UP A CHAIR</span>Come hungry.<br>Leave happy.
      </div>
      <p class="photo-caption">
-      A little menu inspiration · illustrative photography
+      13816 W. Center St. · Burton, Ohio
      </p>
     </div>
    </section>
@@ -101,7 +101,7 @@
       </a>
      </div>
     </section>
-    <section class="intro">
+    <section class="intro"><span class="section-index" aria-hidden="true">01 / THE GOOD STUFF</span>
      <div>
       <span class="eyebrow">
        Simple pleasures, served well
@@ -119,13 +119,13 @@
    </div>
    <section class="menu-section" id="menu">
     <div class="wrap">
-     <div class="section-head">
+     <div class="section-head"><span class="section-index" aria-hidden="true">02 / THE MENU</span>
       <div>
        <span class="eyebrow">
         Something for every appetite
        </span>
        <h2>
-        What sounds good?
+        Good taste.<br><em>Great choices.</em>
        </h2>
       </div>
       <p>
@@ -143,9 +143,9 @@
       </div>
       <label class="search-label">
        <span class="small">
-        Find a favorite
+        Find your favorite
        </span>
-       <input class="search" disabled="" id="search" placeholder="Search eggs, burgers, pancakes…" type="search"/>
+       <input aria-label="Search the menu" class="search" disabled="" id="search" placeholder="Search eggs, burgers, pancakes…" type="search"/>
       </label>
      </div>
      <div aria-busy="true" aria-live="polite" id="menu-content">
@@ -161,7 +161,7 @@
      </p>
     </div>
    </section>
-   <section class="visit wrap" id="visit">
+   <section class="visit wrap" id="visit"><span class="section-index" aria-hidden="true">03 / FIND YOUR TABLE</span>
     <div>
      <span class="eyebrow">
       We’ll see you in Burton
@@ -233,7 +233,7 @@
     </div>
    </section>
   </main>
-  <footer>
+  <footer class="site-footer">
    <div class="wrap">
     <span>
      JC’s Restaurant · Burton, Ohio
@@ -246,7 +246,7 @@
     </a>
    </div>
   </footer>
-  <script src="/assets/js/menu.js" type="module">
-  </script>
+  <script src="/assets/js/menu.js" type="module"></script>
  </body>
 </html>
+
